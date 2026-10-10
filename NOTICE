@@ -1,0 +1,25 @@
+Battle Chess recovery tools
+Copyright (c) 2026 Kirill Gusev
+
+This unofficial research project is not affiliated with the game's publishers,
+developers or Apple. Battle Chess and referenced product names belong to their
+respective owners.
+
+The MIT license applies to this repository's tool source and authored documentation.
+It does not license original game or operating-system files, recovered media,
+generated resources, disassembly/decompiler output, or external software. None of
+those files is distributed here. Users supply their own original inputs privately.
+
+Some tools translate observed compression/container behavior and retain short
+instruction signatures, offsets, resource identifiers and protocol constants for
+verification. The research notes describe those observations and their limits;
+this work is not presented as a clean-room recovery or a proof of game parity.
+
+Ghidra, resource_dasm/m68kdasm, hfsutils, Java, emulators, SDL, and other external
+tools remain separate projects under their own licenses. Install them from their
+upstream sources; their binaries and upstream artwork are not bundled here.
+
+provenance.json records the local source origins of the initial tool/documentation
+snapshots. Text-only evidence notes retain historical results but omit original
+captures, raw dumps, project databases and generated output. A successful clone
+or synthetic check does not independently reproduce those historical results.
